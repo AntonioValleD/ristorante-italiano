@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risotorante Italiano</title>
+    <script src="https://kit.fontawesome.com/2e0f46c77f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="head">
+        <div class="navigation-container">
+            <div class="navigation-content container">
+                <div class="logo">
+                    <h2>Ristorante <span class="green">Tu</span><span>ri</span><span class="red">lli</span></h2>
+                </div>
+                <nav class="navigation hide">
+                    <a href="#home">Inicio</a>
+                    <a href="#menu">Menú</a>
+                    <a href="#chef">Chef</a>
+                    <a href="#about">Sobre nosotros</a>
+                    <a href="#contact">Contacto</a>
+                </nav>
+                <div class="lat-menu">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="header-content" id="home">
+            <div class="header-container">
+                <div class="header-text">
+                    <h2>Accoglienza!</h2>
+                    <a href="#menu" class="btn borders">il nostro menú</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="./media/bg_video.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="about-container container" id="about">
+        <div class="about-text">
+            <p class="welcome">Bienvenido a!</p>
+            <h1>Ristorante Turilli</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta magni hic voluptatum esse temporibus
+                sapiente? Placeat, esse? Similique, incidunt excepturi at quisquam obcaecati mollitia illum accusamus et
+                placeat esse nisi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ab labore illum ad
+                officiis quaerat nam non ipsa earum, doloremque, aperiam consectetur provident laborum ipsam esse
+                excepturi laboriosam in quibusdam?
+            </p>
+            <a href="#contact" class="btn contact-btn">Contactar</a>
+        </div>
+        <div class="about-images">
+            <div class="image1">
+                <img data-src="./media/nosotros1.webp" alt="eating pizza">
+            </div>
+            <div class="images2">
+                <img data-src="./media/nosotros2.webp" alt="woman eating pizza">
+                <img data-src="./media/nosotros3.webp" alt="pasta">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu container" id="menu">
+        <h2 class="dishes-text">Platillos populares</h2>
+        <div class="dishes-buttons">
+            <button class="all btn dishes-btn">Todo</button>
+            <button class="salad btn dishes-btn">Ensaladas</button>
+            <button class="pasta btn dishes-btn">Pastas</button>
+            <button class="pizza btn dishes-btn">Pizza</button>
+            <button class="dessert btn dishes-btn">Postres</button>
+        </div>
+        <div class="dishes">
+            <div class="dish" data-dish="salad">
+                <img data-src="./media/ensalada.webp" alt="salad">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="salad">
+                <img data-src="./media/ensalada2.webp" alt="salad">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="salad">
+                <img data-src="./media/ensalada2.webp" alt="salad">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="pasta">
+                <img data-src="./media/pasta1.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="pasta">
+                <img data-src="./media/pasta1.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="pasta">
+                <img data-src="./media/pasta2.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="pizza">
+                <img data-src="./media/pizza1.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="pizza">
+                <img data-src="./media/pizza1.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="pizza">
+                <img data-src="./media/pizza2.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="dessert">
+                <img data-src="./media/postres1.webp" alt="dessert">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="dessert">
+                <img data-src="./media/postres2.webp" alt="dessert">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="dish" data-dish="dessert">
+                <img data-src="./media/postres3.webp" alt="dessert">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="cost">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separator">
+        <div class="separator-content container">
+            <h2>Comida italiana para epezar el día</h2>
+            <p>Empieza tu día comiendo deliciosa comida o un café italiano</p>
+            <a href="#menu" class="btn dishes-btn">Ordenar ahora</a>
+        </div>
+    </div>
+
+    <section class="chef container" id="chef">
+        <h2>Chef ejecutivo</h2>
+        <div class="chef-content">
+            <div class="chef-text">
+                <h3>La excelencia está en la diversidad y el modo de progresar es conocer y comprobar las diversidades
+                    productos, culturas y técnicas
+                </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam, aperiam similique maiores
+                    delectus corrupti nemo et sed fugit commodi unde consequuntur obcaecati aut asperiores aspernatur ipsam
+                    quas est hic! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quod et perferendis,
+                    laboriosam totam blanditiis quidem necessitatibus error laborum ex facilis repudiandae officia
+                    recusandae exercitationem ad veritatis, debitis eum possimus.
+                </p>
+                <a href="#" class="btn dishes-btn">Leer biografía</a>
+            </div>
+            <div class="chef-image">
+                <img data-src="./media/chef.webp" alt="chef">
+            </div>
+        </div>
+    </section>
+
+    <div class="contact-form container" id="contact">
+        <div class="contact-info">
+            <h3>Contactanos</h3>
+            <p><i class="fa-sharp fa-solid fa-location-dot"></i>23. Roma Italia 75012</p>
+            <p><i class="fa-solid fa-envelope"></i>luca@turilli.it</p>
+            <p><i class="fa-solid fa-phone"></i>+3123410921</p>
+            <div class="social-network">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <form class="form-info">
+            <div class="form-input">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Antonio" id="name">
+            </div>
+            <div class="form-input">
+                <label for="last-name">Apellido</label>
+                <input type="text" placeholder="Valle" id="last-name">
+            </div>
+            <div class="form-input">
+                <label for="phone">Teléfono</label>
+                <input type="text" placeholder="+52 4951192430" id="phone">
+            </div>
+            <div class="form-input">
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="juan.valle.d1@gmail.com" id="email">
+            </div>
+            <div class="form-input">
+                <label for="message">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-form">
+                <input type="submit" value="Enviar" class="btn dishes-btn">
+            </div>
+        </form>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-info container">
+            <div class="last-info">
+                <h3>Dirección</h3>
+                <p>23. Roma Italia 75012</p>
+                <p>+3123410921</p>
+            </div>
+            <div class="last-info">
+                <h3>Horario</h3>
+                <p>Lunes a Domingo: 7am - 11pm</p>
+                <div class="social-network foot-net">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="last-info">
+                <h3>Días especiales</h3>
+                <p>Jueves y Sábados: 10am - 9pm</p>
+            </div>
+            <div class="last-info">
+                <h3>Noticias</h3>
+                <p>Suscribete para más noticias</p>
+                <input type="email" placeholder="juan.valle.d1@gmail.com">
+                <input type="submit" value="Suscribirse" class="btn dishes-btn">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2023 Ristorante Turilli, desarrollado por Antonio Valle</p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
